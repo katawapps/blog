@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+}
+.contenedor{
+    max-width: 100%;
+    
+}
+.izquierdo{
+    border: 3px solid white; 
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+}
+.derecho{
+    border: 3px solid white; 
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: block;
+}
+.links{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.links:hover{
+    box-shadow: 10px 10px 25px white;
+    
+}
